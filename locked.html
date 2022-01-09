@@ -2,6 +2,16 @@
 <html>
     <head>
         <title>L u thought</title>
+        <link rel="stylesheet" href="styles.css"> 
+        <script>
+            var date = new Date();
+            var currYear = date.getFullYear();
+            var currMonth = date.getMonth()+1;
+            var currDay = date.getDate();
+            if(currDay >=12){
+                window.location.href="index.html";
+            }
+        </script>
     </head>
     <body>
         <h1>Dum Dum it is not the 12th</h1>
