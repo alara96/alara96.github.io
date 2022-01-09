@@ -3,13 +3,22 @@
     <head>
         <title>L u thought</title>
         <link rel="stylesheet" href="styles.css">
+        <script>
+            var date = new Date();
+            var currYear = date.getFullYear();
+            var currMonth = date.getMonth()+1;
+            var currDay = date.getDate();
+            if(currDay >= 12){
+                window.location.href="index.html";
+            }
+        </script>
     </head>
     <body>
         <center>
-            <h1 id="cat">Alice curiosity killed the cat. Come back on the 12th. Since its not the 12th enjoy this picture :)</h1>
+            <h1 style="width:27vw;">Alice curiosity killed the cat. Come back on the 12th. Since its not the 12th enjoy this picture :)</h1>
         </center>
         <center>
-            <div class="img">
+            <div class="img2">
                 <center>
                     <img  id="bad" src="bad_pic.jpg" height="500px" width="500px">
                 </center>
